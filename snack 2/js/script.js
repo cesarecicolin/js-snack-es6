@@ -27,7 +27,8 @@ squadre.forEach(squadre => {
     squadre.foul = randomPoint();
   });
 
-  
+  let nameAndFoul = squadre.map(squadre => [squadre.name, squadre.foul])
+  console.log(nameAndFoul);
 
 // \*******************
 // funzioni
